@@ -1,12 +1,6 @@
 h1  {color:aquamarine;}
 #f1 {color:blueviolet;}
 .f2 {color:crimson;}
-#p1 .p2 b {
-    color: salmon
-}
-#p1 .p3 b {
-    color: greenyellow
-}
-#p1 .p4 b {
-    color: orangered
-}
+#p1 .p2 b {color: salmon}
+#p1 .p3 b {color: greenyellow}
+#p1 .p4 b {color: orangered}

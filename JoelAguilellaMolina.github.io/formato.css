@@ -1,4 +1,6 @@
 h1  {color:aquamarine;}
-#f1 em {color:blueviolet;
-    background-color: darkgreen;}
+#f1 {color:blueviolet;}
 .f2 {color:crimson;}
+#p1 .p2 b {
+     color: brown;
+     background-color: dimgrey;}

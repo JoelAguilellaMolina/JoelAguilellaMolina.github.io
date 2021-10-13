@@ -173,9 +173,9 @@ form {
     border-color: #e7746f;
     color: #e7746f; }
   .button.alt {
-    background: #676d79;
-    border-color: #676d79;
-    color: #fff; }
+    background: #000000;
+    border-color: #ffffff;
+    color: rgb(255, 0, 0); }
     .button.alt.on, .button.alt:hover {
       background: #e7746f;
       border-color: #e7746f; }
@@ -371,19 +371,19 @@ article.modal {
   cursor: default; }
   #header .logo a {
     display: inline-block;
-    background: #e7746f;
-    color: #fff;
+    background: #ff0d00;
+    color: rgb(255, 0, 0);
     border-radius: 4px;
     padding: 0.55em 0.6em;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 1000;
     font-size: 2.3em;
     margin: 0 0 0.5em 0;
     border: 0; }
     #header .logo a span {
-      font-weight: 300; }
+      font-weight: 600; }
   #header .about {
-    font-size: 2.5em;
+    font-size: 1em;
     line-height: 1.35em;
     font-weight: 200;
     letter-spacing: -1.5px; }
@@ -391,8 +391,8 @@ article.modal {
       font-weight: 700; }
   #header .features {
     position: absolute;
-    right: 0;
-    top: 0; }
+    right: 20;
+    top: 50; }
     #header .features li {
       position: relative;
       text-align: center;
@@ -411,12 +411,12 @@ article.modal {
         line-height: 1;
         -webkit-font-smoothing: antialiased;
         position: absolute;
-        width: 2em;
-        height: 2em;
-        line-height: 2em;
-        top: 1em;
+        width: 10em;
+        height: 10em;
+        line-height: 10em;
+        top: 10em;
         left: -1.05em;
-        color: #dee0e3;
+        color: #346cc0;
         font-size: 1.5em; }
       #header .features li:before {
         display: block;
@@ -428,7 +428,7 @@ article.modal {
         height: 2.1em;
         line-height: 2.1em;
         text-align: center;
-        box-shadow: 0 0 0 1px #dee0e3;
+        box-shadow: 1 1 1 1px #0066ff;
         cursor: default;
         -moz-transition: all 0.2s ease-in-out;
         -webkit-transition: all 0.2s ease-in-out;
@@ -441,12 +441,12 @@ article.modal {
     margin: 8em 0 4em 0;
     padding: 0; }
     #header.alt .logo a {
-      margin: 0 0 0.75em 0; }
+      margin: 0 0 10em 0; }
     #header.alt h2 {
       font-size: 2.5em;
       line-height: 1.35em;
-      font-weight: 700;
-      letter-spacing: -1px; }
+      font-weight: 70000;
+      letter-spacing: 40px; }
 
 /* Bar */
 #bar {
@@ -807,7 +807,7 @@ body.dark #demo-header {
       -ms-transform: rotate(45deg);
       transform: rotate(45deg); }
       #dialog .modal .closer:before {
-        font-family: 'h5u';
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         speak: none;
         font-style: normal;
         font-weight: normal;
@@ -947,7 +947,7 @@ body.dark #demo-header {
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+    transform: rotate(180deg); } }
 
 @-webkit-keyframes button-loading {
   0% {
@@ -999,7 +999,7 @@ body.dark #demo-header {
     -ms-transition: opacity 0.5s ease;
     transition: opacity 0.5s ease;
     -webkit-font-smoothing: antialiased;
-    color: #777448;
+    color: #e9dd35;
     content: '';
     display: block;
     font-family: 'h5u';
@@ -1032,7 +1032,7 @@ body.dark #demo-header {
     opacity: 1; }
 
 .signup.done .button {
-  background-color: #6a2697; }
+  background-color: #855da0; }
   .signup.done .button:before {
     content: '\e007';
     -moz-animation: none !important;
@@ -1044,7 +1044,7 @@ body.dark #demo-header {
 #px-banner {
   margin-top: 2em;
   border-radius: 6px;
-  background-image: url("images/px-bg.svg"), url("images/px-banner.jpg");
+  background-image: url("avatar.jpg");
   background-position: center center, center center;
   background-size: auto, cover;
   background-attachment: scroll, fixed;

@@ -10,11 +10,13 @@ published: true
 
 	<div class="gallery">
 
-
   {% for project in site.projects %}
 
+  {% assign bg_image = project.tile_image | default: "/assets/images/IconJust5Minutes.png" %}
+
   {% if project.redirect %}
-  <div class="projectTile">
+
+  <div class="projectTile" style="background-image: url('{{ bg_image }}')">
           <a href="{{ project.redirect }}" target="_blank">
           <span>
               <h2>{{ project.title }}</h2>
@@ -26,7 +28,7 @@ published: true
 
   {% else %}
 
-  <div class="projectTile">
+  <div class="projectTile" style="background-image: url('{{ bg_image }}')">
           <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
           <span>
               <h2>{{ project.title }}</h2>
@@ -36,9 +38,13 @@ published: true
           </a>
   </div>
 
+  
+  
+
   {% endif %}
 
   {% endfor %}
+
 
 	</div>
 

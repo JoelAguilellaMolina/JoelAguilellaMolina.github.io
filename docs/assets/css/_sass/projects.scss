@@ -14,17 +14,25 @@
 
 .projectTile {
   /* Minimum width of 200px and grow to fit available space */
-  flex: 1 0 200px;
+  flex: 1 0 250px;
   border-radius: 15px;
-  background: $projectbox;
+  
+  /* background-image: url("/assets/images/IconJust5Minutes.png"); */
+  /*background: $projectbox;
   @media (prefers-color-scheme: dark) {
     background: $projectbox-dark;
-  }
-  height: 200px;
+  }*/
+
+  background-size: contain;       /* Estira/encoge la foto de alta calidad para cubrir todo el botón */
+  background-position: center;   /* Centra la imagen para que no se corte mal */
+  background-repeat: no-repeat;  /* Evita que la foto se duplique */
+
+  height: 250px;
   width: 100%;
   overflow: hidden;
   display: table;
 }
+
 
 .projectTile a {
   display: table-cell;
@@ -108,7 +116,7 @@
 @supports (display: grid) {
   .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 2rem;
   }
 

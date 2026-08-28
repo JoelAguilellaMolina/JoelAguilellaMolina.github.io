@@ -40,3 +40,8 @@ Esta desventaja y otras como el cambio de tamaño de piezas, incapacidad de rota
 Es por ello que las ventajas ofrecen herramientas positivas como **recompensa** de finalizar un nivel de boss (donde hay una modificación potente del juego que solo dura ese nivel en concreto) y otras herramientas como por ejemplo añadir una vida o que cada 8 piezas la propia pieza no tenga color (por tanto no es afectada por las reglas de perder vida si x color hace contacto con y).
 
 Diseñé casi todas las desventajas y ventajas del juego al igual que dibujé iconos para la mayoría de los modificadores. A nivel de programación programé y me aseguré que la funcionalidad de los modificadores afectaban al contador de vida o al color/tamaño de la pieza en los eventos concretos.
+
+El nombre de **Tetras Peak** fue cambiado por una propuesta de una transformación del proyecto a una aplicación movil y una investigación del mercado actual y competidores para el curso de *"Monetization & Marketing in Games"* del programa de intercambio de Hanze University of Applied Sciences (Hanze UAS) 2024-2025. A continuación se muestra el pitch deck de la propuesta de transformación a producto:
+
+<embed src="/assets/pdfs/TetrasPeakPitchDeck.pdf" width="1000" height="1500" 
+ type="application/pdf">

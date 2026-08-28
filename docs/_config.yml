@@ -5,7 +5,7 @@ description: Gameplay Designer | System Designer | Serious Game Designer
 
 baseurl: "" #name of GitHub repository
 url: "http://joelaguilellamolina.github.io" #custom url to be used instead of GitHub repository
-email: #
+email: "joelaguilellamolina@gmail.com"
 
 # Pagination
 paginate: 4
@@ -13,16 +13,11 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "#"
-stackoverflow: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
-substack: "#"
+email: "joelaguilellamolina@gmail.com"
+linkedin: "gamejamer76"
+github: "JoelAguilellaMolina"
+
+
 
 # Markdown
 highlighter: rouge
@@ -48,12 +43,12 @@ collections:
     output: true
     permalink: /projects/:name/
     order:
-      - shortProject.md
-      - longerProjectTitle.md
-      - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
+      - purpleShift.md
+      - tacticalVector.md
+      - diabetesChallenge.md
+      - golfForGlory.md
+      - tetrisTower.md
+      - just5Minutes.md
 
 sass:
   sass_dir: /assets/css/_sass
